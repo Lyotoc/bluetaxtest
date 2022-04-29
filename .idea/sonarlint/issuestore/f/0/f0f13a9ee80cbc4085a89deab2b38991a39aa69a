@@ -1,0 +1,19 @@
+
+[	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(€´×±
+E
+java:S3740J"/Provide the parametrized type for this generic.(Ÿµ·å
+f	java:S116#"QRename this field "Enckey" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éöƒŸ
+œ
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ïÑÈüúÿÿÿÿ
+h
+java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(€´×±
+g
+java:S3252c"LUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isBlank".(•áÓ¸ÿÿÿÿÿ
+^
+java:S1128"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“8»Á›¿0
+^
+java:S1128
+"<Remove this unused import 'javax.crypto.spec.SecretKeySpec'.(¹«è•üÿÿÿÿ8»Á›¿0
+@
+java:S5411h"*Use the primitive boolean expression here.(•€¨¤
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èóûÿÿÿÿ

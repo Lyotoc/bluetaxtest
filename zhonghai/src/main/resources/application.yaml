@@ -1,0 +1,54 @@
+zhonghai:
+  appKey: DZQZXT
+  appSecret: 8e8bebee08fa5423f8cb907964657f9e
+  url:
+    user: cdp.coli688.com/userApi/v1/synUserInfo
+    company: cdp.coli688.com/productApi/v1/rdt/findTaxpayerList
+#mybatis
+mybatis-plus:
+#  mapper-locations: classpath*:mybatis/mapper/*.xml
+#  config-location: classpath:mybatis/mybatis-config.xml
+  #实体扫描，多个package用逗号或者分号分隔
+#  typeAliasesPackage: com.bluetax.company.pojo
+#  typeEnumsPackage: com.bluetax.company.pojo.enums
+  global-config:
+    db-config:
+      #主键类型 AUTO:"数据库ID自增" INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: AUTO
+      # 设置空不查询
+      select-strategy: not_empty
+      # 设置空不更新
+      updateStrategy: not_empty
+      #驼峰下划线转换
+      table-underline: true
+#  configuration:
+#    # 是否开启自动驼峰命名规则映射:从数据库列名到Java属性驼峰命名的类似映射
+#    map-underscore-to-camel-case: true
+#    # 如果查询结果中包含空值的列，则 MyBatis 在映射的时候，不会映射这个字段
+#    call-setters-on-nulls: false
+#    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl.
+
+# 分页配置
+#pagehelper:
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql
+#  helper-dialect: mysql
+
+spring:
+  application:
+    name: bluetaxtest
+  datasource:
+    max-pool-prepared-statement-per-connection-size: 10
+    min-idle: 10
+    time-between-eviction-runs-millis: 60000
+    test-while-idle: true
+    max-active: 15
+    validation-query: SELECT 1
+    logSlowSql: true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: ming
+    password: Ming2020--Yike
+    url: jdbc:mysql://rm-7xvruys3713bf36u6fo.mysql.rds.aliyuncs.com:3306/company_zhonghai?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&allowPublicKeyRetrieval=true

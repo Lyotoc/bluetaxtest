@@ -1,0 +1,6 @@
+
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(¼ÜÞÌ
+P	java:S125#"<This block of commented-out lines of code should be removed.(àñú
+`
+java:S1128"ERemove this unused import 'org.mybatis.spring.annotation.MapperScan'.(½‡ö–þÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—º¦Œ

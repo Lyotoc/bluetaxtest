@@ -1,0 +1,25 @@
+
+E
+java:S1481="*Remove this unused "data1" local variable.(”†ûÿÿÿÿ
+>	java:S108D")Either remove or fill this block of code.(å¥ž‡
+W
+java:S1075I"ARefactor your code to get this URI from a customizable parameter.(•„õý
+P
+java:S4719I":Replace Charset.forName() call with StandardCharsets.UTF_8(•„õý
+N
+java:S1854h"8Remove this useless assignment to local variable "body".(±µ¾á
+V	java:S125d"<This block of commented-out lines of code should be removed.(ØÇô‚ûÿÿÿÿ
+?
+java:S1481h")Remove this unused "body" local variable.(±µ¾á
+Q	java:S125m"<This block of commented-out lines of code should be removed.(âï‰¹
+W
+java:S1075t"ARefactor your code to get this URI from a customizable parameter.(è¬Ïû
+e
+java:S11929"JDefine a constant instead of duplicating this literal "appSecret" 3 times.(Žÿ’öøÿÿÿÿ
+]
+java:S11928"GDefine a constant instead of duplicating this literal "appKey" 3 times.(©™è—
+c
+java:S11925"HDefine a constant instead of duplicating this literal "pageNum" 3 times.(¾®Õ§þÿÿÿÿ
+e
+java:S1192;"JDefine a constant instead of duplicating this literal "timestamp" 3 times.(ãÛÓÔøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀñžÌýÿÿÿÿ

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven363" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23aP2BGxZ2Q1UWsZxhGGZNAzqFP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyoto.zhonghai.Bean" />
+      <recent name="com.lyoto.zhonghai.Service.mapper" />
+      <recent name="com.lyoto.zhonghai.Bean.Exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ZhonghaiApplicationTests.contextLoads">
+    <configuration name="ZhonghaiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zhonghai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyoto.zhonghai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyoto.zhonghai" />
+      <option name="MAIN_CLASS_NAME" value="com.lyoto.zhonghai.ZhonghaiApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BluetaxtestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bluetaxtest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyoto.bluetaxtest.test.BluetaxtestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZhonghaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zhonghai" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyoto.zhonghai.ZhonghaiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ZhonghaiApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="" />
+      <created>1641969016251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641969016251</updated>
+      <workItem from="1641969017848" duration="10217000" />
+      <workItem from="1642035804568" duration="13194000" />
+      <workItem from="1642127695135" duration="1825000" />
+      <workItem from="1642671560529" duration="1243000" />
+      <workItem from="1643015403577" duration="2390000" />
+      <workItem from="1643081460169" duration="8039000" />
+      <workItem from="1643166525320" duration="5040000" />
+      <workItem from="1643268073397" duration="1058000" />
+      <workItem from="1643296982908" duration="3577000" />
+      <workItem from="1643546052861" duration="5322000" />
+      <workItem from="1643678513339" duration="4409000" />
+      <workItem from="1644283663412" duration="2334000" />
+      <workItem from="1644368706008" duration="4754000" />
+      <workItem from="1644455636874" duration="2708000" />
+      <workItem from="1646797455992" duration="1363000" />
+      <workItem from="1646874924856" duration="2729000" />
+      <workItem from="1646960828248" duration="1179000" />
+      <workItem from="1647225182908" duration="292000" />
+      <workItem from="1647225534139" duration="587000" />
+      <workItem from="1647306111984" duration="586000" />
+      <workItem from="1647392647952" duration="912000" />
+      <workItem from="1649399265222" duration="4102000" />
+      <workItem from="1649639734301" duration="14278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.7.17/hutool-all-5.7.17.jar!/cn/hutool/http/HttpRequest.class</url>
+          <line>326</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.7.17/hutool-all-5.7.17-sources.jar!/cn/hutool/crypto/symmetric/SymmetricCrypto.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="sun.net.www.protocol.http.HttpURLConnection" memberName="requests" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
