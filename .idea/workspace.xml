@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="" />
+    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Utils/EncryptUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Aspects/DataEncryptionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Aspects/DataEncryptionAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Bean/UserManagerPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Bean/UserManagerPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/mapper/ManagerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/mapper/ManagerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/ZhonghaiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/ZhonghaiApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -50,16 +63,23 @@
     </option>
   </component>
   <component name="ProjectId" id="23aP2BGxZ2Q1UWsZxhGGZNAzqFP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -85,12 +105,12 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZhonghaiApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.ZhonghaiApplication">
     <configuration name="ZhonghaiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zhonghai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyoto.zhonghai.*" />
+          <option name="PATTERN" value="com.lyoto.zhonghai.Bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhonghaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ZhonghaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="zhonghai" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyoto.zhonghai.ZhonghaiApplication" />
       <method v="2">
@@ -118,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ZhonghaiApplication" />
         <item itemvalue="JUnit.ZhonghaiApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -153,11 +174,27 @@
       <workItem from="1647392647952" duration="912000" />
       <workItem from="1649399265222" duration="4102000" />
       <workItem from="1649639734301" duration="14278000" />
+      <workItem from="1651203815131" duration="2566000" />
+      <workItem from="1651212002381" duration="279000" />
+      <workItem from="1651713895909" duration="14638000" />
+      <workItem from="1651799737811" duration="18154000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,11 +209,37 @@
           <line>273</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/ZhonghaiApplication.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Aspects/DataEncryptionAspect.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Aspects/DataEncryptionAspect.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="sun.net.www.protocol.http.HttpURLConnection" memberName="requests" />
+        <PinnedItemInfo parentTag="com.sun.proxy.$Proxy81" memberName="h" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

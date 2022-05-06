@@ -20,12 +20,12 @@ import lombok.Data;
  @Date 2022-01-13 11:09
  @Version
  **/
-	@Data
+@Data
 public class UserManagerPo implements Serializable {
-		@JSONField(name = "fullName")
-		private String  managerName;
-		@JSONField(name = "username")
-		private String  account;
-		@JSONField(name = "email")
-		private String  email;
+	@JSONField(name = "fullName")
+	private String managerName;
+	@JSONField(name = "username")
+	private String account;
+	@JSONField(name = "email")
+	private String email;
 }

@@ -1,14 +1,12 @@
 package com.lyoto.zhonghai.Aspects;
-
-import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.math.BigDecimal;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-import javax.crypto.spec.SecretKeySpec;
-
+import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.symmetric.AES;
@@ -29,7 +27,7 @@ import org.springframework.stereotype.Component;
  @Version
  **/
 @Aspect
-@Component
+//@Component
 public class DataEncryptionAspect {
 	@Value("${encKey:123456}")
 	private  String Enckey;
@@ -78,10 +76,11 @@ public class DataEncryptionAspect {
 					// 需要脱敏的字段类型目前只支持String
 					if ("class java.lang.String".equals(field.getGenericType().toString()) && field.isAnnotationPresent(NeedEncryption.class)) {
 						Method getFieldMethod = objClazz.getMethod("get" + getMethodName(field.getName()));
-						Method setFieldMethod = objClazz.getMethod("set" + getMethodName(field.getName()), String.class);
-						String fieldValue = (String) getFieldMethod.invoke(obj);
+						Method setFieldMethod = objClazz.getMethod("set" + getMethodName(field.getName()), BigDecimal.class);
+						String fieldValue = String.valueOf(getFieldMethod.invoke(obj));
 						if (StringUtils.isNotBlank(fieldValue)) {
-							setFieldMethod.invoke(obj, handle(fieldValue, isEncrypt));
+							handle(fieldValue, isEncrypt);
+							setFieldMethod.invoke(obj,handle(fieldValue,isEncrypt));
 						}
 					}
 				}
@@ -92,13 +91,11 @@ public class DataEncryptionAspect {
 	/**
 	 *
 	 * @param content
-	 * @param isEncrypt
+	 * @param isEncrypt true-加密 false*-解密
 	 * @return
 	 */
 	private String handle(String content, Boolean isEncrypt) {
-		if (StrUtil.isBlank(content)) {
-			return content;
-		}
+		Assert.isTrue(StrUtil.isNotBlank(content),"该值为空{}",content);
 		AES aes = SecureUtil.aes(generateKeyByUTF8(Enckey));
 		// 加解密算法可自行替换，对称非对称都可以
 		return isEncrypt ? aes.encryptHex(content) : aes.decryptStr(content);
