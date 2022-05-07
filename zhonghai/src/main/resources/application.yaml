@@ -1,9 +1,9 @@
 zhonghai:
-  appKey: DZQZXT
-  appSecret: 8e8bebee08fa5423f8cb907964657f9e
+  appKey: xxxx
+  appSecret: xxxx
   url:
-    user: cdp.coli688.com/userApi/v1/synUserInfo
-    company: cdp.coli688.com/productApi/v1/rdt/findTaxpayerList
+    user: xxxx
+    company: xxxx
 #mybatis
 mybatis-plus:
 #  mapper-locations: classpath*:mybatis/mapper/*.xml
@@ -49,6 +49,6 @@ spring:
     logSlowSql: true
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    username: ming
-    password: Ming2020--Yike
-    url: jdbc:mysql://rm-7xvruys3713bf36u6fo.mysql.rds.aliyuncs.com:3306/company_zhonghai?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&allowPublicKeyRetrieval=true
+    username: xxx
+    password: xxxxx
+    url: jdbc:mysql://xxxxx:3306/company_zhonghai?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&allowPublicKeyRetrieval=true
