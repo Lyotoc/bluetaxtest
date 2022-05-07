@@ -13,5 +13,5 @@ import org.apache.ibatis.annotations.Mapper;
  **/
 @Mapper
 @EncryptionMapper
-public interface TestMapper extends BaseMapper<Object> {
+public interface TestMapper extends BaseMapper<Test> {
 }

@@ -12,5 +12,5 @@ import org.springframework.stereotype.Service;
  @Date 2022-05-05 11:29
  @Version
  **/
-public interface TestService extends IService<Object> {
+public interface TestService extends IService<Test> {
 }

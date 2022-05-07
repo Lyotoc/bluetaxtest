@@ -32,8 +32,7 @@ public class ZhonghaiApplication{
 		TestService service = run.getBean("testServiceImpl", TestService.class);
 		Test test = new Test();
 		test.setMoney(new BigDecimal("1.0"));
-		JSONObject obj = JSONUtil.parseObj(test);
-		service.save(obj);
+		service.save(test);
 		Configuration config = new Configuration();
 		//Field[] declaredFields = test.getClass().getDeclaredFields();
 		//for (Field field:declaredFields) {

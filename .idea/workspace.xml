@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Utils/EncryptUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Aspects/DataEncryptionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Aspects/DataEncryptionAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Bean/UserManagerPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Bean/UserManagerPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/mapper/ManagerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/mapper/ManagerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/Impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/Impl/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Service/mapper/TestMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/ZhonghaiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/ZhonghaiApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -177,8 +175,17 @@
       <workItem from="1651203815131" duration="2566000" />
       <workItem from="1651212002381" duration="279000" />
       <workItem from="1651713895909" duration="14638000" />
-      <workItem from="1651799737811" duration="18154000" />
+      <workItem from="1651799737811" duration="18635000" />
+      <workItem from="1651886700341" duration="13190000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1651831599341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651831599341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +202,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,13 +237,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java</url>
-          <line>36</line>
+          <line>49</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="26" />
+          <line>57</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -16,6 +16,6 @@ import org.springframework.stereotype.Service;
  @Version
  **/
 @Service
-public class TestServiceImpl extends ServiceImpl<TestMapper,Object> implements TestService  {
+public class TestServiceImpl extends ServiceImpl<TestMapper,Test> implements TestService  {
 
 }
