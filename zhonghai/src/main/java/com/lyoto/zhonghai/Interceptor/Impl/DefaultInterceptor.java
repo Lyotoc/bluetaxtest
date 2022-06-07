@@ -47,6 +47,22 @@ import org.springframework.stereotype.Component;
 public class DefaultInterceptor implements BaseInterceptor {
 	@Override
 	public Object intercept(Invocation invocation) throws Throwable {
+		//拿到参数处理对象
+		ParameterHandler handler = (ParameterHandler) invocation.getTarget();
+		//参数映射的属性
+		Field mappedStatementField = handler.getClass().getDeclaredField("mappedStatement");
+		//设置属性为可访问
+		mappedStatementField.setAccessible(true);
+		//获取映射对象
+		MappedStatement mappedStatement = (MappedStatement) mappedStatementField.get(handler);
+		//通过id截取获得调用类的类名
+		String invokeClassName = mappedStatement.getId().substring(0, mappedStatement.getId().lastIndexOf("."));
+		Class<?> invokeClass = Class.forName(invokeClassName);
+		boolean present = invokeClass.isAnnotationPresent(EncryptionMapper.class);
+		if (!present) {
+			return invocation.proceed();
+		}
+		PreparedStatement preparedStatement = (PreparedStatement) invocation.getArgs()[0];
 		dealParameter(invocation);
 		Object returnValue = invocation.proceed();
 		dealReturnValue(returnValue);
@@ -54,38 +70,20 @@ public class DefaultInterceptor implements BaseInterceptor {
 	}
 
 	private void dealParameter(Invocation invocation) throws Throwable {
-		//拿到参数处理对象
-		ParameterHandler handler = (ParameterHandler) invocation.getTarget();
-		//参数映射的属性
-		Field mappedStatementField = handler.getClass().getDeclaredField("mappedStatement");
-		//参数对象属性
-		Field parameterField = handler.getClass().getDeclaredField("parameterObject");
-		//设置属性为可访问
-		mappedStatementField.setAccessible(true);
-		parameterField.setAccessible(true);
-		//获取映射对象
-		MappedStatement mappedStatement = (MappedStatement) mappedStatementField.get(handler);
-		//通过id截取获得调用类的类名
-		String invokeClassName = mappedStatement.getId().substring(0, mappedStatement.getId().lastIndexOf("."));
-		Class<?> invokeClass = Class.forName(invokeClassName);
-		boolean present = invokeClass.isAnnotationPresent(EncryptionMapper.class);
 
-		PreparedStatement preparedStatement = (PreparedStatement) invocation.getArgs()[0];
-		// 反射获取 BoundSql 对象，此对象包含生成的sql和sql的参数map映射
-		Field boundSqlField = handler.getClass().getDeclaredField("boundSql");
-		boundSqlField.setAccessible(true);
-		BoundSql boundSql = (BoundSql) boundSqlField.get(handler);
-		if (!present) {
-			return;
-		}
+
+
+
+
+
 		Object parameterObject = handler.getParameterObject();
 		Class<?> beanClass = parameterObject.getClass();
 
 		Field[] fields = beanClass.getDeclaredFields();
-		Map map = new HashMap<String,String>();
-		for (Field field : fields){
+		Map map = new HashMap<String, String>();
+		for (Field field : fields) {
 			//
-			map.put(field.getName(),"444");
+			map.put(field.getName(), "444");
 		}
 		Field parameterMappingsField = boundSql.getClass().getDeclaredField("parameterMappings");
 		parameterMappingsField.setAccessible(true);
@@ -95,31 +93,11 @@ public class DefaultInterceptor implements BaseInterceptor {
 		Field typeHandlerField = parameterMapping.getClass().getDeclaredField("typeHandler");
 		typeHandlerField.setAccessible(true);
 		javaTypeField.setAccessible(true);
-		javaTypeField.set(parameterMapping,String.class);
+		javaTypeField.set(parameterMapping, String.class);
 		typeHandlerField.set(parameterMapping, new StringTypeHandler());
-		parameterField.set(handler,map);
+		parameterField.set(handler, map);
 		handler.setParameters(preparedStatement);
 
-		//MappedStatement statement = (MappedStatement) invocation.getArgs()[0];
-		//String id = statement.getId();
-		//Pattern pattern = Pattern.compile(".+(?=\\.)");
-		//Matcher matcher = pattern.matcher(id);
-		//Assert.isTrue(matcher.find(),"类不存在！");
-		//String group = matcher.group(0);
-		//try {
-		//	Class<?> name = Class.forName(group);
-		//	boolean present = name.isAnnotationPresent(EncryptionMapper.class);
-		//	if (present){
-		//		Object arg = invocation.getArgs()[1];
-		//		Configuration configuration = statement.getConfiguration();
-		//		statement.getSqlSource().getBoundSql(invocation.getArgs()[1]);
-		//		configuration.newMetaObject(arg);
-		//		//configuration.newMetaObject(new String());
-		//	}
-		//}
-		//catch (ClassNotFoundException e) {
-		//	e.printStackTrace();
-		//}
 	}
 
 	private void dealReturnValue(Object o) {

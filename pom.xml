@@ -13,6 +13,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>zhonghai</module>
+		<module>RPCFrameWork</module>
 	</modules>
 
 	<build>
