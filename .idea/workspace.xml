@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/Consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/HttpServletHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/InvoCation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/LocalRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/RemoteRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/Provider/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/Provider/api/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/Provider/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Utils/EncryptHandler.java" afterDir="false" />
+    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="RPC使用动态代理执行目标方法">
+      <change afterPath="$PROJECT_DIR$/JUC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/FutureAPIDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Utils/AESUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Utils/EncryptHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Utils/EncryptHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +25,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -94,9 +81,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;14.16.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;14.18.21&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript.Linters&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;20203b5918523e11af35d165518f84d2&quot;
   }
 }</component>
@@ -107,6 +102,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAspace\learningleader\bluetaxtest\zhonghai\src\main\resources\templates\js" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyoto.zhonghai.Bean" />
       <recent name="com.lyoto.zhonghai.Service.mapper" />
@@ -120,48 +118,49 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.Consumer">
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyoto.Consumer.Consumer" />
-      <module name="RPCFrameWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyoto.Consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyoto.Provider.Provider" />
-      <module name="RPCFrameWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyoto.Provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZhonghaiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.FutureAPIDemo">
+    <configuration name="AESUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyoto.zhonghai.Utils.AESUtils" />
       <module name="zhonghai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyoto.zhonghai.Bean.*" />
+          <option name="PATTERN" value="com.lyoto.zhonghai.Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lyoto.zhonghai" />
-      <option name="MAIN_CLASS_NAME" value="com.lyoto.zhonghai.ZhonghaiApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="EncryptHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyoto.zhonghai.Utils.EncryptHandler" />
+      <module name="zhonghai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyoto.zhonghai.Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureAPIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FutureAPIDemo" />
+      <module name="JUC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread" />
+      <module name="JUC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zhonghai/src/main/resources/templates/js/encrypt.js" working-dir="$PROJECT_DIR$/zhonghai/src/main/resources/templates/js">
+      <method v="2" />
     </configuration>
     <configuration name="BluetaxtestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bluetaxtest" />
@@ -170,7 +169,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhonghaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+    <configuration name="ZhonghaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zhonghai" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyoto.zhonghai.ZhonghaiApplication" />
       <method v="2">
@@ -179,10 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Consumer" />
-        <item itemvalue="应用程序.Provider" />
-        <item itemvalue="Spring Boot.ZhonghaiApplication" />
-        <item itemvalue="JUnit.ZhonghaiApplicationTests.contextLoads" />
+        <item itemvalue="应用程序.FutureAPIDemo" />
+        <item itemvalue="应用程序.MyThread" />
+        <item itemvalue="应用程序.AESUtils" />
+        <item itemvalue="Node.js.encrypt.js" />
+        <item itemvalue="应用程序.EncryptHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +224,19 @@
       <workItem from="1651886700341" duration="16768000" />
       <workItem from="1654154006740" duration="9594000" />
       <workItem from="1654478199179" duration="10503000" />
-      <workItem from="1654564619647" duration="11663000" />
+      <workItem from="1654564619647" duration="12631000" />
+      <workItem from="1654743069428" duration="817000" />
+      <workItem from="1655777474270" duration="14221000" />
+      <workItem from="1655802813400" duration="3354000" />
+      <workItem from="1655860568993" duration="1241000" />
+      <workItem from="1655947273426" duration="2412000" />
+      <workItem from="1656567532055" duration="6798000" />
+      <workItem from="1656638084204" duration="887000" />
+      <workItem from="1656642779286" duration="596000" />
+      <workItem from="1656647569893" duration="623000" />
+      <workItem from="1656906064670" duration="3622000" />
+      <workItem from="1657094972052" duration="1262000" />
+      <workItem from="1657156742922" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
@@ -247,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651912267666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RPC使用动态代理执行目标方法">
+      <created>1654581645690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654581645690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +285,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="RPC使用动态代理执行目标方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="RPC使用动态代理执行目标方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,11 +317,6 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zhonghai/src/main/java/com/lyoto/zhonghai/Interceptor/Impl/DefaultInterceptor.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/HttpServer.java</url>
           <line>48</line>
           <option name="timeStamp" value="25" />
@@ -310,11 +325,6 @@
           <url>file://$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/HttpClient.java</url>
           <line>23</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/HttpServletHandler.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/RemoteRegister.java</url>
@@ -369,6 +379,10 @@
         <PinnedItemInfo parentTag="com.sun.proxy.$Proxy81" memberName="h" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bluetaxtest$Consumer.ic" NAME="Consumer 覆盖结果" MODIFIED="1654573717924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

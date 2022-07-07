@@ -14,6 +14,7 @@
 	<modules>
 		<module>zhonghai</module>
 		<module>RPCFrameWork</module>
+		<module>JUC</module>
 	</modules>
 
 	<build>

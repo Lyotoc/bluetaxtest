@@ -1,8 +1,13 @@
 package com.lyoto.zhonghai.Utils;
 
 import java.lang.reflect.Field;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.sql.PreparedStatement;
+import java.util.Arrays;
 
+import cn.hutool.crypto.SecureUtil;
+import cn.hutool.crypto.symmetric.AES;
 import org.apache.ibatis.executor.parameter.ParameterHandler;
 import org.apache.ibatis.mapping.BoundSql;
 
@@ -28,8 +33,14 @@ public class EncryptHandler {
 		boundSqlField.setAccessible(true);
 		BoundSql boundSql = (BoundSql) boundSqlField.get(handler);
 
+	}
 
-
+	public static void main(String[] args) {
+		AES aes =SecureUtil.aes(EncryptUtils.generateKeyByUTF8("bluetax"));
+		String encrypt = aes.encryptBase64("Aa123456");
+		System.out.println(encrypt);
+		String s =aes.decryptStr("MOWbQxucn3sv42ub7IGNdQ==");
+		System.out.println(s);
 
 	}
 }

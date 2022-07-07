@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zhonghai" />
         <module name="RPCFrameWork" />
+        <module name="JUC" />
       </profile>
     </annotationProcessing>
   </component>
