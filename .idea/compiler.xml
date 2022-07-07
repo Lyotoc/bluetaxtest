@@ -10,6 +10,7 @@
         <module name="zhonghai" />
         <module name="RPCFrameWork" />
         <module name="JUC" />
+        <module name="JDBC" />
       </profile>
     </annotationProcessing>
   </component>
