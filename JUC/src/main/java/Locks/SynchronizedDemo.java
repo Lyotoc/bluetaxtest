@@ -7,6 +7,8 @@ package Locks;
  @Version
  **/
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
@@ -152,6 +154,43 @@ public class SynchronizedDemo {
 	}
 
 	public static void main(String[] args) {
+		SynchronizedDemo synchronizedDemo2 = new SynchronizedDemo();
+		synchronizedDemo2.deadLockCase();
+	}
+
+	/**
+	 * 死锁问题演示
+	 */
+	@Test
+	public void deadLockCase(){
+		System.out.println("死锁演示");
+		new Thread(SynchronizedDemo::methodA,"a").start();
+		new Thread(SynchronizedDemo::methodB,"b").start();
+	}
+	public static SynchronizedDemo synchronizedDemo = new SynchronizedDemo();
+	public static SynchronizedDemo synchronizedDemo1 = new SynchronizedDemo();
+	public static void methodA() {
+			synchronized (synchronizedDemo) {
+				System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName() + " come in 1 and "+Thread.currentThread().getName());
+				try {
+					TimeUnit.SECONDS.sleep(2);
+				}
+				catch (InterruptedException e) {
+					throw new RuntimeException(e);
+				}
+				synchronized (synchronizedDemo1) {
+					System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName() + " come in 2 and "+Thread.currentThread().getName());
+				}
+			}
+	}
+	public static void methodB(){
+		synchronized (synchronizedDemo1){
+
+			System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName()+"come in 1 and "+Thread.currentThread().getName());
+			synchronized (synchronizedDemo){
+				System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName() + " come in 2 and "+Thread.currentThread().getName());
+			}
+		}
 	}
 }
 

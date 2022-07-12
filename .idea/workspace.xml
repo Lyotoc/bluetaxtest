@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="JUC并发多线程">
-      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/CompletableFutureBuildDemo.java" afterDir="false" />
+    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="SybchronizedDemo">
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/LockTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC/src/main/java/Locks/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/SynchronizedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/URL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,49 +115,76 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.CompletableFutureBuildDemo">
-    <configuration name="CompletableFutureBuildDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompletableFutureBuildDemo" />
+  <component name="RunManager" selected="应用程序.Singleton">
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Locks.Singleton" />
       <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureAPIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FutureAPIDemo" />
+    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Locks.SynchronizedDemo" />
       <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread" />
+    <configuration name="LockTypeDemo.fairUnFairTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureBuildDemo.buildThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUC" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CompletableFutureBuildDemo" />
-      <option name="METHOD_NAME" value="buildThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Locks" />
+      <option name="MAIN_CLASS_NAME" value="Locks.LockTypeDemo" />
+      <option name="METHOD_NAME" value="fairUnFairTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+    <configuration name="SynchronizedDemo.deadLockCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Lyoto.Jdbc.*" />
+          <option name="PATTERN" value="Locks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Lyoto.Jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Jdbc.ConnectionTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="Locks" />
+      <option name="MAIN_CLASS_NAME" value="Locks.SynchronizedDemo" />
+      <option name="METHOD_NAME" value="deadLockCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedDemo.testCase8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Locks" />
+      <option name="MAIN_CLASS_NAME" value="Locks.SynchronizedDemo" />
+      <option name="METHOD_NAME" value="testCase8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.CompletableFutureBuildDemo" />
-        <item itemvalue="JUnit.CompletableFutureBuildDemo.buildThread" />
-        <item itemvalue="JUnit.ConnectionTest.test" />
-        <item itemvalue="应用程序.FutureAPIDemo" />
-        <item itemvalue="应用程序.MyThread" />
+        <item itemvalue="应用程序.Singleton" />
+        <item itemvalue="应用程序.SynchronizedDemo" />
+        <item itemvalue="JUnit.LockTypeDemo.fairUnFairTest" />
+        <item itemvalue="JUnit.SynchronizedDemo.deadLockCase" />
+        <item itemvalue="JUnit.SynchronizedDemo.testCase8" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +265,10 @@
       <workItem from="1656906064670" duration="3622000" />
       <workItem from="1657094972052" duration="1262000" />
       <workItem from="1657156742922" duration="6908000" />
-      <workItem from="1657246403534" duration="9049000" />
+      <workItem from="1657246403534" duration="9106000" />
+      <workItem from="1657502340770" duration="15653000" />
+      <workItem from="1657588869876" duration="3755000" />
+      <workItem from="1657596490619" duration="12305000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
@@ -280,7 +312,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657183004134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JUC并发多线程">
+      <created>1657274460640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657274460640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="compeletableFutureAPI使用">
+      <created>1657531267779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657531267779</updated>
+    </task>
+    <task id="LOCAL-00009" summary="SybchronizedDemo">
+      <created>1657531298162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657531298162</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +354,9 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="RPC使用动态代理执行目标方法" />
     <MESSAGE value="JUC并发多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUC并发多线程" />
+    <MESSAGE value="compeletableFutureAPI使用" />
+    <MESSAGE value="SybchronizedDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="SybchronizedDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,6 +440,24 @@
           <url>file://$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/RemoteRegister.java</url>
           <line>47</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JUC/src/main/java/Locks/SynchronizedDemo.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JUC/src/main/java/Locks/LockTypeDemo.java</url>
+          <line>57</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JUC/src/main/java/Locks/LockTypeDemo.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

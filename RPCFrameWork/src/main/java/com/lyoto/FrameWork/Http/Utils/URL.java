@@ -7,7 +7,7 @@ package com.lyoto.FrameWork.Http.Utils;
  @Version
  **/
 public class URL {
-private String hostName;
+	private String hostName;
 
 	private String port;
 
@@ -18,27 +18,32 @@ private String hostName;
 	public String getPort() {
 		return port;
 	}
-	public static Builder builder(){
+
+	public static Builder builder() {
 		return new Builder(new URL());
 	}
 
 
-	public static class Builder{
+	public static class Builder {
 		private URL url;
-		Builder(URL url){
+
+		Builder(URL url) {
 			this.url = url;
 		}
+
 		public Builder hostName(String hostName) {
 			url.hostName = hostName;
 			return this;
 		}
-		public Builder port(String port){
+
+		public Builder port(String port) {
 			url.port = port;
 			return this;
 		}
-		public URL build(){
-			return  url;
+
+		public URL build() {
+			return url;
 		}
-}
+	}
 
 }
