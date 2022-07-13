@@ -1,5 +1,7 @@
 package Locks;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -63,24 +65,24 @@ public class Singleton {
 
 		public static void main(String[] args) {
 			System.out.println("单加synchronized执行");
-
-			new Thread(()->{
+			ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(16);
+			newFixedThreadPool.execute(()->{
 			long startTime1 = System.currentTimeMillis();
 				for (int i = 0; i < 100; i++) {
 					System.out.println(getInstance());
 				}
 			long endTime1 = System.currentTimeMillis();
-			System.out.printf("耗时：%s秒%n",(endTime1-startTime1)/1000);
-			}).start();
+			System.out.printf("耗时：%s毫秒%n",(endTime1-startTime1));
+			});
 
 			System.out.println("双重检验锁执行");
-			new Thread(()->{
+			newFixedThreadPool.execute(()->{
 			long startTime2 = System.currentTimeMillis();
 			for (int i = 0; i < 100; i++) {
 				System.out.println(getInstance1());
 		}
 			long endTime2 = System.currentTimeMillis();
-			System.out.printf("耗时：%s秒",(endTime2-startTime2)/1000);
-			},"a").start();
+			System.out.printf("耗时：%s毫秒",(endTime2-startTime2));
+			});
 		}
 }

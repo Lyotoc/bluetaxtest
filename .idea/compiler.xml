@@ -11,6 +11,7 @@
         <module name="RPCFrameWork" />
         <module name="JUC" />
         <module name="JDBC" />
+        <module name="SpringLearn" />
       </profile>
     </annotationProcessing>
   </component>

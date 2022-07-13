@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="SybchronizedDemo">
-      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/LockTypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringLearn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/SpringLearnApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC/src/main/java/Locks/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/SynchronizedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPCFrameWork/src/main/java/com/lyoto/FrameWork/Http/Utils/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC/src/main/java/Locks/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/Locks/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,24 +77,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;14.16.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;14.18.21&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IDEAspace/blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript.Linters&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;20203b5918523e11af35d165518f84d2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "14.16.0",
+    "javascript.nodejs.core.library.typings.version": "14.18.21",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/IDEAspace/blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Settings.JavaScript.Linters",
+    "spring.configuration.checksum": "20203b5918523e11af35d165518f84d2"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -101,6 +111,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IDEAspace\learningleader\bluetaxtest\zhonghai\src\main\resources\templates\js" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.Lyoto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyoto.zhonghai.Bean" />
@@ -115,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.Singleton">
+  <component name="RunManager" selected="Spring Boot.SpringLearnApplication">
     <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Locks.Singleton" />
       <module name="JUC" />
@@ -197,6 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringLearn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Lyoto.SpringLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZhonghaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zhonghai" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyoto.zhonghai.ZhonghaiApplication" />
@@ -269,6 +289,7 @@
       <workItem from="1657502340770" duration="15653000" />
       <workItem from="1657588869876" duration="3755000" />
       <workItem from="1657596490619" duration="12305000" />
+      <workItem from="1657675457297" duration="13856000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
