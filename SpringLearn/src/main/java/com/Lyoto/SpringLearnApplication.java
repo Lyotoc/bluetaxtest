@@ -1,5 +1,10 @@
 package com.Lyoto;
 
+import java.util.List;
+
+import com.Lyoto.Business.Beans.User;
+import com.Lyoto.FrameWork.config.UserFactoryBean;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,8 +24,9 @@ import org.springframework.data.redis.core.RedisTemplate;
 public class SpringLearnApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(SpringLearnApplication.class, args);
-		RedisTemplate bean = run.getBean("redisTemplate",RedisTemplate.class);
-		//bean.
-		//System.out.println(bean);
+		UserFactoryBean userFactoryBean = run.getBean(UserFactoryBean.class);
+			User user = userFactoryBean.getObject();
+			User user1 = userFactoryBean.getObject();
+			System.out.println(user == user1);
 	}
 }
