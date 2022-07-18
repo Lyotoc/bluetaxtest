@@ -1,17 +1,19 @@
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.util.Arrays;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import ch.qos.logback.core.pattern.ConverterUtil;
+import cn.hutool.core.convert.Convert;
+import cn.hutool.core.io.FileUtil;
+import cn.hutool.poi.ofd.OfdWriter;
+import com.Lyoto.Business.Beans.User;
 import com.Lyoto.FrameWork.config.FactoryBeanConfig;
+import com.Lyoto.FrameWork.config.MyBeanFactoryPostProcessor;
 import com.Lyoto.FrameWork.config.UserFactoryBean;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.ofdrw.converter.ConvertHelper;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -23,36 +25,24 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  **/
 @Slf4j
 public class IOCTest {
-	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(FactoryBeanConfig.class);
 	@Test
-	public void testImport() throws InterruptedException {
-		new Thread(()->{
-			for (int i = 0; i < 100 ; i++) {
-				test1();
-			}
-		},"t1").start();
-		new Thread(()->{
-			for (int i = 0; i < 100 ; i++) {
-				test1();
-			}
-		},"t2").start();
-		new Thread(()->{
-			for (int i = 0; i < 100 ; i++) {
-				test1();
-			}
-		},"t3").start();
-		new Thread(()->{
-			for (int i = 0; i < 100 ; i++) {
-				test1();
-			}
-		},"t4").start();
-			TimeUnit.SECONDS.sleep(50);
+	public void testImport(){
+
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyBeanFactoryPostProcessor.class);
+		context.close();
 	}
 	void test1(){
-		String[] beanDefinitionNames = context.getBeanDefinitionNames();
-		Arrays.stream(beanDefinitionNames).forEach(System.out::println);
-		UserFactoryBean bean = context.getBean(UserFactoryBean.class);
-		log.info("拿到bean:{}",bean);
-		System.out.println(bean.getObject()+Thread.currentThread().getName());
+		//String[] beanDefinitionNames = context.getBeanDefinitionNames();
+		//Arrays.stream(beanDefinitionNames).forEach(System.out::println);
+		//User user = context.getBean("userFactoryBean", User.class);
+		//log.info("拿到bean:{}",user);
+		//System.out.println(user.getUserName()+Thread.currentThread().getName());
+	}
+	@Test
+	public void test2(){
+		BufferedInputStream inputStream = FileUtil.getInputStream("E:\\wechat\\user\\WeChat Files\\wxid_hbhk7zuhosat22\\FileStorage\\MsgAttach\\b93ed9627911b1bf783048b726568079\\File\\2022-07\\8a80848a81b383730181cdaf249c0547.ofd");
+		BufferedOutputStream outputStream = FileUtil.getOutputStream("E:\\wechat\\user\\WeChat Files\\wxid_hbhk7zuhosat22\\FileStorage\\MsgAttach\\b93ed9627911b1bf783048b726568079\\File\\2022-07\\8a80848a81b383730181cdaf249c0547.pdf");
+		ConvertHelper.ofd2pdf(inputStream,outputStream);
+
 	}
 }
