@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="SpringIoc">
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/Business/Beans/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/ExtConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/MyBeanDefinitionRegistryPosttProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/MyBeanFactoryPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPCFrameWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RPCFrameWork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,6 +277,7 @@
       <workItem from="1657761883231" duration="14486000" />
       <workItem from="1657848554492" duration="10308000" />
       <workItem from="1658108697912" duration="7961000" />
+      <workItem from="1658202933874" duration="2702000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
