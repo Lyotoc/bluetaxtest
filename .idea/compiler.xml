@@ -12,6 +12,7 @@
         <module name="JUC" />
         <module name="JDBC" />
         <module name="SpringLearn" />
+        <module name="JavaSESourceLearn" />
       </profile>
     </annotationProcessing>
   </component>

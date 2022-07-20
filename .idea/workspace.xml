@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="SpringIoc">
+    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="POM依赖更改">
+      <change afterPath="$PROJECT_DIR$/JavaSESourceLearn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/ArrayListAnalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPCFrameWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RPCFrameWork/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,29 +125,51 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IOCTest.testImport">
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Locks.Singleton" />
-      <module name="JUC" />
+  <component name="RunManager" selected="JUnit.ArrayListAnalyse.addTs">
+    <configuration name="ArrayListAnalyse.addTs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSESourceLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Locks.*" />
+          <option name="PATTERN" value="com.Lyoto.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.Lyoto.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Collection.ArrayListAnalyse" />
+      <option name="METHOD_NAME" value="addTs" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Locks.SynchronizedDemo" />
-      <module name="JUC" />
+    <configuration name="ArrayListAnalyse.defaultCapacityEmptyElementData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSESourceLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Locks.*" />
+          <option name="PATTERN" value="com.Lyoto.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.Lyoto.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Collection.ArrayListAnalyse" />
+      <option name="METHOD_NAME" value="defaultCapacityEmptyElementData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListAnalyse.emptyElementData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSESourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Lyoto.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Lyoto.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Collection.ArrayListAnalyse" />
+      <option name="METHOD_NAME" value="emptyElementData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,22 +189,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IOCTest" />
       <option name="METHOD_NAME" value="testImport" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockTypeDemo.fairUnFairTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Locks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Locks" />
-      <option name="MAIN_CLASS_NAME" value="Locks.LockTypeDemo" />
-      <option name="METHOD_NAME" value="fairUnFairTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayListAnalyse.addTs" />
+        <item itemvalue="JUnit.ArrayListAnalyse.defaultCapacityEmptyElementData" />
+        <item itemvalue="JUnit.ArrayListAnalyse.emptyElementData" />
         <item itemvalue="JUnit.IOCTest.testImport" />
         <item itemvalue="JUnit.IOCTest.test2" />
-        <item itemvalue="应用程序.Singleton" />
-        <item itemvalue="应用程序.SynchronizedDemo" />
-        <item itemvalue="JUnit.LockTypeDemo.fairUnFairTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +284,8 @@
       <workItem from="1657761883231" duration="14486000" />
       <workItem from="1657848554492" duration="10308000" />
       <workItem from="1658108697912" duration="7961000" />
-      <workItem from="1658202933874" duration="2702000" />
+      <workItem from="1658202933874" duration="3021000" />
+      <workItem from="1658280193687" duration="10790000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
@@ -342,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657531298162</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="POM依赖更改">
+      <created>1658224688390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658224688390</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +381,8 @@
     <MESSAGE value="compeletableFutureAPI使用" />
     <MESSAGE value="SybchronizedDemo" />
     <MESSAGE value="SpringIoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringIoc" />
+    <MESSAGE value="POM依赖更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM依赖更改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,6 +484,11 @@
           <url>file://$PROJECT_DIR$/JUC/src/main/java/Locks/LockTypeDemo.java</url>
           <line>30</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/ArrayListAnalyse.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/MyBeanFactoryPostProcessor.java</url>

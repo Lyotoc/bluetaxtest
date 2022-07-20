@@ -37,6 +37,7 @@
 		<module>JUC</module>
 		<module>JDBC</module>
 		<module>SpringLearn</module>
+		<module>JavaSESourceLearn</module>
 	</modules>
 
 	<build>
