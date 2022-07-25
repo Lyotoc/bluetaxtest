@@ -19,4 +19,5 @@ public class ExtConfig {
 	public Student student(){
 		return new Student();
 	}
+
 }

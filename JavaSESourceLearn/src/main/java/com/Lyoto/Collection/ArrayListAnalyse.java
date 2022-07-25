@@ -1,7 +1,11 @@
 package com.Lyoto.Collection;
 
+import java.lang.reflect.Field;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.junit.Test;
@@ -43,7 +47,26 @@ public class ArrayListAnalyse {
 	/**
 	 *
 	 */
+	@Test
 	public void foreachTest() {
-
+		ArrayList<String> list = new ArrayList<>();
+		list.forEach(System.out::println);
+		list.removeIf(list::contains);
+		list.replaceAll(str->{
+			if (str.isEmpty()){
+			str = "this is empty";
+			}
+			return str;
+		});
 	}
+	@Test
+	public void subListTest() throws NoSuchFieldException {
+		ArrayList<String> arrayList = Stream.of("1", "2", "3", "4").collect(Collectors.toCollection(ArrayList::new));
+
+		List<String> list = arrayList.subList(1, 3);
+		list.clear();
+		arrayList.forEach(System.out::println);
+	}
+
+
 }

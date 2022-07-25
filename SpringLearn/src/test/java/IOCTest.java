@@ -8,6 +8,7 @@ import cn.hutool.core.convert.Convert;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.poi.ofd.OfdWriter;
 import com.Lyoto.Business.Beans.User;
+import com.Lyoto.FrameWork.config.ExtConfig;
 import com.Lyoto.FrameWork.config.FactoryBeanConfig;
 import com.Lyoto.FrameWork.config.MyBeanFactoryPostProcessor;
 import com.Lyoto.FrameWork.config.UserFactoryBean;
@@ -28,7 +29,7 @@ public class IOCTest {
 	@Test
 	public void testImport(){
 
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyBeanFactoryPostProcessor.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ExtConfig.class);
 		context.close();
 	}
 	void test1(){
@@ -37,12 +38,5 @@ public class IOCTest {
 		//User user = context.getBean("userFactoryBean", User.class);
 		//log.info("拿到bean:{}",user);
 		//System.out.println(user.getUserName()+Thread.currentThread().getName());
-	}
-	@Test
-	public void test2(){
-		BufferedInputStream inputStream = FileUtil.getInputStream("E:\\wechat\\user\\WeChat Files\\wxid_hbhk7zuhosat22\\FileStorage\\MsgAttach\\b93ed9627911b1bf783048b726568079\\File\\2022-07\\8a80848a81b383730181cdaf249c0547.ofd");
-		BufferedOutputStream outputStream = FileUtil.getOutputStream("E:\\wechat\\user\\WeChat Files\\wxid_hbhk7zuhosat22\\FileStorage\\MsgAttach\\b93ed9627911b1bf783048b726568079\\File\\2022-07\\8a80848a81b383730181cdaf249c0547.pdf");
-		ConvertHelper.ofd2pdf(inputStream,outputStream);
-
 	}
 }

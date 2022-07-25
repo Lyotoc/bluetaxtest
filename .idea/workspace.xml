@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="POM依赖更改">
-      <change afterPath="$PROJECT_DIR$/JavaSESourceLearn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/ArrayListAnalyse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/HashMapAnalyse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/ArrayListAnalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/ArrayListAnalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/ExtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/ExtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/SpringLearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/SpringLearnApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListAnalyse.addTs">
+  <component name="RunManager" selected="Spring Boot.SpringLearnApplication">
     <configuration name="ArrayListAnalyse.addTs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSESourceLearn" />
       <extension name="coverage">
@@ -174,11 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringLearn" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IOCTest" />
-      <option name="METHOD_NAME" value="test2" />
+    <configuration name="ArrayListAnalyse.subListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSESourceLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Lyoto.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Lyoto.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Collection.ArrayListAnalyse" />
+      <option name="METHOD_NAME" value="subListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IOCTest.testImport" />
+        <item itemvalue="JUnit.ArrayListAnalyse.subListTest" />
         <item itemvalue="JUnit.ArrayListAnalyse.addTs" />
         <item itemvalue="JUnit.ArrayListAnalyse.defaultCapacityEmptyElementData" />
         <item itemvalue="JUnit.ArrayListAnalyse.emptyElementData" />
-        <item itemvalue="JUnit.IOCTest.testImport" />
-        <item itemvalue="JUnit.IOCTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +294,9 @@
       <workItem from="1658108697912" duration="7961000" />
       <workItem from="1658202933874" duration="3021000" />
       <workItem from="1658280193687" duration="10790000" />
+      <workItem from="1658366615168" duration="17690000" />
+      <workItem from="1658452985483" duration="15954000" />
+      <workItem from="1658712701263" duration="19703000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
@@ -487,8 +498,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/ArrayListAnalyse.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/FrameWork/config/MyBeanFactoryPostProcessor.java</url>
