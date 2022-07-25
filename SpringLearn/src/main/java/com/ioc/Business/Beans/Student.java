@@ -1,4 +1,4 @@
-package com.Lyoto.Business.Beans;
+package com.ioc.Business.Beans;
 
 /**
  @author Lyoto

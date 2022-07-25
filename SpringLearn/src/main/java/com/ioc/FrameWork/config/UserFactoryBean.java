@@ -1,8 +1,8 @@
-package com.Lyoto.FrameWork.config;
+package com.ioc.FrameWork.config;
 
 import java.util.concurrent.TimeUnit;
 
-import com.Lyoto.Business.Beans.User;
+import com.ioc.Business.Beans.User;
 
 import org.springframework.beans.factory.FactoryBean;
 

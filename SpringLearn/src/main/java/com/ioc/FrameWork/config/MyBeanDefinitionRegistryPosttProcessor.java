@@ -1,8 +1,6 @@
-package com.Lyoto.FrameWork.config;
+package com.ioc.FrameWork.config;
 
-import java.util.logging.Logger;
-
-import com.Lyoto.Business.Beans.Student;
+import com.ioc.Business.Beans.Student;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.BeansException;

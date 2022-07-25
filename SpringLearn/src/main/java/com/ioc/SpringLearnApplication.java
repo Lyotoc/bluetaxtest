@@ -1,19 +1,11 @@
-package com.Lyoto;
+package com.ioc;
 
-import java.util.List;
+import com.ioc.Business.Beans.Student;
+import com.ioc.FrameWork.config.MyBeanDefinitionRegistryPosttProcessor;
 
-import com.Lyoto.Business.Beans.Student;
-import com.Lyoto.Business.Beans.User;
-import com.Lyoto.FrameWork.config.MyBeanDefinitionRegistryPosttProcessor;
-import com.Lyoto.FrameWork.config.UserFactoryBean;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  @author Lyoto

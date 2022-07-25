@@ -1,15 +1,12 @@
-package com.Lyoto.FrameWork.config;
+package com.ioc.FrameWork.config;
 
 import java.util.Arrays;
 
-import com.Lyoto.Business.Beans.Student;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 /**
