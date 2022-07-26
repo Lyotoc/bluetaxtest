@@ -1,6 +1,6 @@
-package com.ioc.FrameWork.config;
+package com.Lyoto.ioc.FrameWork.config;
 
-import com.ioc.Business.Beans.Student;
+import com.Lyoto.ioc.Business.Beans.Student;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

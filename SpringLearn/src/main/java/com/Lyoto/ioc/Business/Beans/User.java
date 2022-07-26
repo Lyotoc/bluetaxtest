@@ -1,4 +1,4 @@
-package com.ioc.Business.Beans;
+package com.Lyoto.ioc.Business.Beans;
 
 import javax.annotation.PostConstruct;
 

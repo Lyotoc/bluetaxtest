@@ -1,4 +1,4 @@
-package com.ioc.Business.Beans;
+package com.Lyoto.ioc.Business.Beans;
 
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.RootBeanDefinition;

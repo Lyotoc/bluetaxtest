@@ -1,7 +1,6 @@
-package com.ioc.FrameWork.config;
+package com.Lyoto.aop.Config;
 
-import com.ioc.Business.Beans.Student;
-import lombok.extern.slf4j.Slf4j;
+import com.Lyoto.aop.aspect.LogAspect;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
@@ -9,29 +8,25 @@ import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
+import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.stereotype.Component;
 
 /**
  @author Lyoto
  @Description
- @Date 2022-07-18 17:39
+ @Date 2022-07-26 10:03
  @Version
  **/
-@Slf4j
-@Component
-public class MyBeanDefinitionRegistryPosttProcessor implements BeanDefinitionRegistryPostProcessor {
-
+//@Component
+public class MyBeanDefinitionRegistryPostProcessor implements BeanDefinitionRegistryPostProcessor {
 	@Override
 	public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry registry) throws BeansException {
-		log.info("{}中Bean的数量->{}",getClass().getSimpleName(),registry.getBeanDefinitionCount());
-		AbstractBeanDefinition beanDefinition = BeanDefinitionBuilder.rootBeanDefinition(Student.class)
-				.getBeanDefinition();
-		registry.registerBeanDefinition("myStudent",beanDefinition);
-		log.info("{}执行完毕",getClass().getSimpleName()+"postProcessBeanDefinitionRegistry");
+		//AbstractBeanDefinition beanDefinition = BeanDefinitionBuilder.rootBeanDefinition(LogAspect.class)
+		//		.getBeanDefinition();
+		//registry.registerBeanDefinition("logAspect",beanDefinition);
 	}
 
 	@Override
 	public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
-		log.info("{}中Bean的数量->{}",getClass().getSimpleName(),beanFactory.getBeanDefinitionCount());
 	}
 }

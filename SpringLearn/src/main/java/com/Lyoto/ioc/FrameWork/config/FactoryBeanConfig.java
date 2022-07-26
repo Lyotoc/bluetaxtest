@@ -1,4 +1,4 @@
-package com.ioc.FrameWork.config;
+package com.Lyoto.ioc.FrameWork.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

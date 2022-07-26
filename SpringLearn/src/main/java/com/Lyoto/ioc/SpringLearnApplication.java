@@ -1,7 +1,7 @@
-package com.ioc;
+package com.Lyoto.ioc;
 
-import com.ioc.Business.Beans.Student;
-import com.ioc.FrameWork.config.MyBeanDefinitionRegistryPosttProcessor;
+import com.Lyoto.ioc.Business.Beans.Student;
+import com.Lyoto.ioc.FrameWork.config.MyBeanDefinitionRegistryPosttProcessor;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
