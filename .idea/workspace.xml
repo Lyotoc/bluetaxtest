@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="ioc">
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/AopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/Config/AspectsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/Config/MyBeanDefinitionRegistryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/aspect/LogAspect.java" afterDir="false" />
+    <list default="true" id="e10bf7c3-c1c3-41fd-abfa-22ac682c623e" name="Changes" comment="aop">
+      <change afterPath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/aop/MathCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/Service/MathCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/Business/Beans/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/Business/Beans/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/Business/Beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/Business/Beans/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/Business/Beans/UserImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/Business/Beans/UserImport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/FrameWork/config/ExtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/FrameWork/config/ExtConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/FrameWork/config/FactoryBeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/FrameWork/config/FactoryBeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/FrameWork/config/MyBeanDefinitionRegistryPosttProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/FrameWork/config/MyBeanDefinitionRegistryPosttProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/FrameWork/config/MyBeanFactoryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/FrameWork/config/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/FrameWork/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/FrameWork/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/FrameWork/config/UserFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/FrameWork/config/UserFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/ioc/SpringLearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/ioc/SpringLearnApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/test/java/IOCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSESourceLearn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSESourceLearn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/HashMapAnalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSESourceLearn/src/main/java/com/Lyoto/Collection/HashMapAnalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/AopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLearn/src/main/java/com/Lyoto/aop/AopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,7 +88,7 @@
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;14.16.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;14.18.21&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IDEAspace/blog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IDEAspace/learningleader/BlueTax_Rebulid/bluetax&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -138,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.AopApplication">
+  <component name="RunManager" selected="应用程序.HashMapAnalyse">
     <configuration name="AopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Lyoto.aop.AopApplication" />
       <module name="SpringLearn" />
@@ -152,7 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListAnalyse.addTs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashMapAnalyse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Collection.HashMapAnalyse" />
       <module name="JavaSESourceLearn" />
       <extension name="coverage">
         <pattern>
@@ -160,10 +150,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Lyoto.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.Lyoto.Collection.ArrayListAnalyse" />
-      <option name="METHOD_NAME" value="addTs" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,6 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringLearnApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringLearn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Lyoto.ioc.SpringLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringLearn" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Lyoto.SpringLearnApplication" />
@@ -237,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.HashMapAnalyse" />
         <item itemvalue="应用程序.AopApplication" />
         <item itemvalue="Spring Boot.AopApplication" />
         <item itemvalue="JUnit.IOCTest.testImport" />
         <item itemvalue="JUnit.ArrayListAnalyse.subListTest" />
-        <item itemvalue="JUnit.ArrayListAnalyse.addTs" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +304,11 @@
       <workItem from="1658712701263" duration="20425000" />
       <workItem from="1658798827887" duration="5092000" />
       <workItem from="1658814331890" duration="4979000" />
-      <workItem from="1658826480929" duration="1248000" />
+      <workItem from="1658826480929" duration="1366000" />
+      <workItem from="1658884844163" duration="1223000" />
+      <workItem from="1658893646623" duration="2361000" />
+      <workItem from="1658900133396" duration="1850000" />
+      <workItem from="1658902027207" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651831599341</created>
@@ -397,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658742919366</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="aop">
+      <created>1658829819557</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658829819557</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +427,8 @@
     <MESSAGE value="SpringIoc" />
     <MESSAGE value="POM依赖更改" />
     <MESSAGE value="ioc" />
-    <option name="LAST_COMMIT_MESSAGE" value="ioc" />
+    <MESSAGE value="aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
